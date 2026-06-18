@@ -1,0 +1,30 @@
+{
+  "port_scan": {
+    "enabled": true,
+    "description": "Detects port scanning activity",
+    "threshold": 20,
+    "time_window": 60,
+    "severity": "high"
+  },
+  "syn_flood": {
+    "enabled": true,
+    "description": "Detects SYN flood DoS attacks",
+    "threshold": 100,
+    "time_window": 10,
+    "severity": "critical"
+  },
+  "dns_tunnel": {
+    "enabled": true,
+    "description": "Detects DNS tunneling",
+    "threshold": 50,
+    "time_window": 10,
+    "severity": "medium"
+  },
+  "brute_force": {
+    "enabled": true,
+    "description": "Detects SSH/RDP brute force attacks",
+    "threshold": 30,
+    "time_window": 60,
+    "severity": "high"
+  }
+}

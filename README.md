@@ -137,7 +137,7 @@ self.thresholds = {
 }
 
 
-## 📝 Logs
+##  Logs
 
 Alerts are stored in:
 - `logs/alerts.log` - Plain text format

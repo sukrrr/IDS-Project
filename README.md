@@ -110,7 +110,7 @@ for /L %i in (1,1,50) do nslookup test%i.google.com
 ##  Sample Alert Output
 ```
 ==================================================
-🚨 ALERT: Port Scan
+ALERT: Port Scan
 Severity: HIGH
 Source: 10.101.111.166
 Confidence: 100%
